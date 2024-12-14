@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    font-family: Arial, sans-serif;
+   
+    background: #fff;
+}
+
+.container {
+    max-width: 462px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #f3f3f3;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 341px;
+}
+
+.card-header {
+    margin: 35px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+    color: #FF6B82;
+    margin-bottom: 1rem;
+    }
+
+.title-line {
+    position: relative;
+    top: -29px;
+}
+
+.title-line hr {
+    width: 91.65px;
+}
+
+.offer {
+    margin: 20px 0;
+    border: 1px solid #C8C8C8;
+    position: relative;
+    background: #ffffff;
+}
+
+.offer:hover{
+    background: #ff6b8221;
+    border-color: #FF6B82;
+} 
+
+.offer .popular-badge {
+    position: absolute;
+    top: -12px;
+    right: 12px;
+    background: #ff6b82;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 4px;
+  }
+
+.offer-header {
+    display: flex;
+    gap: 10px;
+    padding: 15px 10px;
+}
+
+.offer-header{
+    cursor: pointer;
+}
+
+
+.offer div {
+    align-content: center;
+}
+
+.offer-mid {
+    width: 190px;
+
+}
+
+.unit {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.discount {
+    background: #FF6B82;
+    color: #ffffff;
+    padding: 2px;
+    font-size: 12px; 
+}
+
+.price {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.std-price {
+    font-size: 12px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    font-size: 10px;
+    color: #999;
+}
+
+.options {
+    display: flex;
+    gap: 10px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+.btn{
+    accent-color: #FF6B82;
+    
+}
+
+.options-index {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+.options-index span {
+    font-size: 9.04px;
+}
+
+.options-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.options-content lebel {
+    font-size: 9.94px;
+}
+
+.options-content select {
+    width: 65.98px;
+    height: 25.31px;
+    font-size: 9.94px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content p{
+    font-size: 14px;
+}
+
+.footer-left-content{
+color:#FF6B82;
+}
+.footer-btn{
+    margin: 20px 0;
+}
+
+.add-to-cart {
+    background: #e63b78;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+    color: #00000066;
+    float: right;
+    font-size: 12px;
+  }
